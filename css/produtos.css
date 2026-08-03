@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.principal {
+    padding: 10px;
+}
+
 .grid-produtos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -79,4 +83,30 @@
 
 .btn-comprar:hover {
     background-color: #d39823;
+}
+
+@media (max-width: 768px) {
+    .grid-produtos {
+        grid-template-columns: 1fr;
+    }
+
+    .principal .descricao {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .principal .descricao p {
+        font-size: 13px;
+    }
+    .principal {
+        padding: 30px;
+    }
+    .cabecalho .menu-lateral {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .btn-comprar {
+        padding: 12px;
+    }
 }
