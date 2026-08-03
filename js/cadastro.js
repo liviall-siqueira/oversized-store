@@ -16,3 +16,10 @@ formCep.addEventListener('blur', async() => {
         console.error(error.message)
     }
 })
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    alert('Cadastro realizado com sucesso!')
+    window.location.href = "../html/inicio.html"
+})
