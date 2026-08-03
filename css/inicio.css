@@ -192,7 +192,6 @@ body {
 .rodape .container {
     display: flex;
     gap: 80px;
-    padding-left: 20px;
 }
 
 .rodape .coluna {
@@ -202,10 +201,11 @@ body {
 }
 
 .rodape p {
-    padding: 10px;
+    padding: 20px;
     border-top: 1px solid;  
     padding-top: 25px; 
     font-size: 10px;
+    text-align: center;
 }
 
 .rodape .container h3 {
@@ -245,13 +245,14 @@ body {
     .rodape .container {
         flex-direction: column;
         gap: 5px;
+        justify-content: center;
         align-items: center;
         text-align: center;
 
     } 
 
     .icones {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .newsletter{
@@ -323,6 +324,5 @@ body {
         font-size: 15px;
         padding: 7px;
     }
-
 
 }

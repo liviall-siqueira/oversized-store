@@ -109,4 +109,9 @@
     .btn-comprar {
         padding: 12px;
     }
+
+    .grid-produtos img {
+        width: 300px;
+        height: 300px;
+    }
 }
